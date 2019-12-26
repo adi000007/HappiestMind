@@ -18,7 +18,7 @@ public class DictionaryController {
 	}
 	
 	@PostMapping("/upload")
-	public ResponseEntity<Object> uploadFile(){
+	public ResponseEntity<Object> uploadFile(@RequestBody String File){
 		return new ResponseEntity<Object>(null);
 	}
 }
